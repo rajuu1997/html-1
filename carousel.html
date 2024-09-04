@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            overflow-x: hidden !important;
+        }
+        nav{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            background-color: rgb(65, 63, 63);
+            color: white;
+            height: 60px;
+            width: 100%;
+            gap: 30px;
+
+        }
+        .a{
+            padding-left:15px;
+            font-size: larger;
+        }
+        .b{
+            margin-top: -40px;
+            padding-left: 15px;
+        }
+        button{
+            margin-right: 20px;
+        }
+        .c{
+            
+            padding: 8px 120px;
+            font-size: larger;
+            border-radius: 5px;
+            padding-left: 6px;
+            background-color: whitesmoke;
+            color: rgb(158, 154, 154);
+
+        }
+        .d{
+            padding: 8px 15px;
+            font-size: larger;
+            color: green;
+            border-radius: 5px;
+            border: 1px solid green;
+            background-color: transparent;
+        }
+        .d:focus{
+            outline: none;
+        }
+        .bar2{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 400px;
+            background-color: rgb(114, 113, 113);
+            padding: 30px 180px;
+            gap: 20px;
+        }
+        .bar21{
+            color: whitesmoke;
+            font-size: 50px;
+            }
+            .bar22{
+                color: rgb(209, 214, 214);
+                
+                font-size: x-large;
+            }
+            .bar23{
+                background-color: rgb(0, 119, 255);
+                width: fit-content;
+                color: white;
+                padding: 9px;
+                border-radius: 4px;
+                border-color: transparent;
+            }
+            .bar3{
+                display: flex;
+                justify-content: center;
+                padding: 80px;
+                gap: 60px;
+                margin-top: 30px;
+                text-align: center;
+
+            }
+            .bar311{
+                margin-top: 20px;
+                color: rgb(94, 91, 91);
+                font-size: larger;
+            }
+            .bar312{
+                color: rgb(134, 133, 133);
+                width: 250px;
+                margin-top: 10px;
+                
+            }
+            .bar313{
+                background-color: rgb(94, 91, 91) ;
+                color: white;
+                margin-top: 10px;
+                padding: 10px;
+                font-size: larger;
+                
+            }
+            .div1{
+                display: flex;
+                justify-content: center;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: gray;
+            }
+            .bar4{
+                margin-top: 100px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .bar5{
+                margin-top: 100px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .bar6{
+                margin-top: 100px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .foot{
+                margin-top: 90px;
+                display: flex;
+                justify-content: space-between;
+                word-spacing: 5px;
+                padding-bottom: 40px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+       .ul{
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+       }
+       .nav-content{
+        display: flex;
+        gap: 20px;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <h3>Carousal</h3>
+            <h3>Home</h3>
+             <ul class="ul">
+               <li>link</li> 
+                <li>Disabled</li>
+             </ul>
+
+        
+             
+        </div>
+        <div class="but">
+            <button class="c">search</button>
+            <button class="d">search</button>
+        </div>
+     </nav>
+     <div>
+        <div class="bar2">
+        <h1 class="bar21">Example headline.</h1>
+        <p class="bar22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, <br> quia hic. Iste consectetur  fugit ratione, veritatis, voluptate facilis tempore nobis id? Culpa, asperiores tempore?</p>
+        <button class="bar23">Sign up today</button>
+    </div>
+     </div>
+     <div class="bar3">
+        <div class="bar31">
+            <center><div class="div1"></div></center>
+            <h1 class="bar311">Heading</h1>
+            <p class="bar312">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore alias voluptatibus architecto error porro, laboriosam fugiat aliquid mollitia enim, aliquam cum est atque.</p>
+            <button class="bar313">View details>></button>
+        </div>
+        <div class="bar31">
+            <center><div class="div1"></div></center>
+            <h1 class="bar311">Heading</h1>
+            <p class="bar312">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore alias voluptatibus architecto error porro, laboriosam fugiat aliquid mollitia enim, aliquam cum est atque.</p>
+            <button class="bar313">View details>></button>
+        </div>
+        <div class="bar31">
+            <center><div class="div1"></div></center>
+            <h1 class="bar311">Heading</h1>
+            <p class="bar312">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore alias voluptatibus architecto error porro, laboriosam fugiat aliquid mollitia enim, aliquam cum est atque.</p>
+            <button class="bar313">View details>></button>
+        </div>
+     </div>
+     <div class="bar4">
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <h1 style="width: 300px; gap: 20px;">
+                First featurette heading.
+                <span style="color:rgb(168, 167, 167) ;">it'll blow your mind.</span>
+            </h1>
+            <p style="color: rgb(182, 180, 180);width: 300px;margin-top: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur incidunt officiis voluptate quidem sapiente, fugiat saepe cumque tempora ducimus rerum labore quasi asperiores ipsam doloremque, architecto quisquam, facere eum</p>
+        </div>
+        <div style="width: 400px;height: 400px;background-color: rgb(199, 194, 194);display: flex;justify-content: center;align-items:center ;">400*400</div>
+
+     </div>
+     <div class="bar5">
+        <div style="background-color:  rgb(199, 194, 194);width: 400px;height: 400px;  ;display: flex;justify-content: center;align-items: center;">400*400</div>
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <h1 style="width: 300px ;">
+                Oh yeah,it's that good.
+                <span style="color: rgb(179, 176, 176);">See for yourself.</span>
+            </h1>
+            <p style="color: rgb(175, 173, 173);width: 300px;margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur incidunt officiis voluptate quidem sapiente, fugiat saepe cumque tempora ducimus rerum labore quasi asperiores ipsam doloremque, architecto quisquam, facere eum</p>
+        </div>
+     </div>
+     <div class="bar6">
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <h1 style="width: 300px ;">
+                And lastly, this one.
+                <span style="color: rgb(179, 176, 176);">Checkmate.</span>
+            </h1>
+            <p style="width: 300px;margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur incidunt officiis voluptate quidem sapiente, fugiat saepe cumque tempora ducimus rerum labore quasi asperiores ipsam doloremque, architecto quisquam, facere eum.</p>
+        </div>
+        <div style="width: 400px;height: 400px;background-color: rgb(199, 194, 194) ;display: flex;justify-content: center;align-items: center;">400*400</div>
+     </div>
+     <footer>
+        <div class="foot">
+            <div>
+            <span>Ⓒ 2017-2018 Company,Inc.</span>
+            <span style="color: blue;">privacy</span>
+            <span style="color: blue;">terms</span>
+        </div>
+    
+     <div>
+        <span style="color: blue;">back to top</span>
+     </div>
+    </div>
+    
+     </footer>
+    
+</body>
+</html>
